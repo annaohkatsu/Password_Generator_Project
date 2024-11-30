@@ -25,4 +25,4 @@ for n in range(nr_numbers):
 
 random.shuffle(box)  # Answer to hard version - any other way?
 final_password = ''.join(box) # any other way to print all the elements from list without , or space?
-print(f"Your password could be {final_password}")
+print(f"Your password's idea: {final_password}")
